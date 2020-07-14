@@ -1,0 +1,28 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.height{
+    //height: 1000px;
+    min-height: 100vh;
+}
+.text-underline{
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+    /*background:blue!important;*/
+}
+.height-80{
+    min-height: 88vh;
+}
+.about-image{
+    background: url(../image/da.jpg)center/cover no-repeat fixed;
+    /*background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+#filter{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,1)),url(../image/team5.jpg)center/cover no-repeat fixed;
+    
+}
