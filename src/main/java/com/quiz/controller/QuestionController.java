@@ -47,6 +47,6 @@ public class QuestionController {
 		question.setCategory(category);
             
 		 questionService.save(question);
-		 return "redirect:category";
+		 return "redirect:/category";
 	}
 }

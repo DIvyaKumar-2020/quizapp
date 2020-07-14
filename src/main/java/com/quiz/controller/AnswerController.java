@@ -42,6 +42,6 @@ public class AnswerController {
 		answer.setQuestion(qs);
 		answer.setCorrect(option) ;
 		 answersService.save(answer);
-		 return "redirect:answer";
+		 return "redirect:/questions";
 	}
 }
